@@ -6,7 +6,6 @@ let word=document.querySelector('p')
 	let ans=document.createElement('h1')
 	ans.textContent=ptag.textContent
 ans.innerHTML="Entered Metaverse";
-// 	newElement.id=elem.id;
 	ptag.replaceChild(ans,word);
 	
 }
