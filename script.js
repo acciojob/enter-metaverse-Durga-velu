@@ -6,7 +6,7 @@ let word=document.querySelector('#status')
 	let ans=document.createElement('h1')
 	ans.textContent=ptag.textContent
 ans.innerHTML="Entered Metaverse";
-	ans.id=word.id
+	ans.id="status"
 	ptag.replaceChild(ans,word);
 	
 }
