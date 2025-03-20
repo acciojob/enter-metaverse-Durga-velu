@@ -1,13 +1,14 @@
 //your JS code here. If required.
 
 function change() {
-let cont=document.querySelector('.new')
 let word=document.querySelector('p')
-
+   let ptag =parentNode
+	
 	let ans=document.createElement('h1')
-word.innerHTML="Entered Metaverse";
-	ans.id=$h1;
-	cont.appendChild($h1)
+
+	ans.textContent=ptag.textContent
+ans.innerHTML="Entered Metaverse";
+	
 	
 }
 
