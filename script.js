@@ -2,7 +2,7 @@
 
 function change() {
     let status = document.querySelector('#status');
-    status.innerHTML = "Entered Metaverse";
+    status.innerHTML = "<h1>Entered Metaverse</h1>";
 }
 
 
